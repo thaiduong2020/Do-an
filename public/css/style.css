@@ -1,0 +1,1128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+}
+
+
+/* phần code của sang */
+
+
+/* css topbar */
+
+.sgtopbar .sgtop {
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #2d2b2d;
+    display: inline-block;
+    float: left;
+}
+
+.sgtopbar .sgtop a {
+    color: #ff5b5b;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.sgtopbar .sg {
+    line-height: 30px;
+    text-align: right;
+    font-size: 13px;
+    float: right;
+    display: inline-block;
+    border-left: solid 1px rgba(235, 235, 235, 0.67);
+}
+
+.sgtopbar .sag {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #555;
+    line-height: 30px;
+    display: inline-block;
+    text-align: right;
+    float: right;
+    height: 30px;
+    padding: 0 5px;
+    border-right: solid 1px rgba(235, 235, 235, 0.67);
+}
+
+.sgtopbar .sg a {
+    text-decoration: none;
+    color: black;
+}
+
+.sgtopbar .sag a {
+    text-decoration: none;
+    color: black;
+}
+
+.sgtopbar .sg a:hover {
+    color: #045faf;
+}
+
+.sgtopbar .sag a:hover {
+    color: #045faf;
+}
+
+
+/* kết thúc css topbar */
+
+
+/* css header */
+
+.sag_header_top {
+    height: 120px;
+    width: 100%;
+    float: left;
+    background: #167edf;
+}
+
+.sag_topbar {}
+
+.sag_logo a {
+    display: block;
+    line-height: 110px;
+    text-align: left;
+}
+
+.sag_logo .logo_wrapper img {
+    max-width: 210px;
+}
+
+.sag_header_search {
+    margin: 0px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+.search-bar {
+    max-width: 95%;
+    background: lightblue;
+    width: 95%;
+    margin-bottom: 0px;
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.collection-selector {
+    border-radius: 4px;
+    position: absolute;
+    display: inline-block;
+    min-width: 180px;
+    max-width: 180px;
+    z-index: 2;
+    background: #fff;
+    left: 0;
+    text-align: right;
+    border-right: 0px;
+    height: 40px;
+}
+
+.search_text {
+    text-align: left;
+    cursor: pointer;
+    padding: 0px 32px 0px 20px;
+    width: 100%;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #898989;
+    display: inline-block;
+    margin: 0px;
+    line-height: 40px;
+    background: #f5f5f5;
+    height: 40px;
+    overflow: hidden;
+    border: solid 1px #ebebeb;
+    border-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.lish_search {
+    background: #fff;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    min-width: 200px;
+    width: auto;
+    z-index: 88;
+    font-weight: 400 !important;
+    border-radius: 0;
+    right: -20px;
+    margin-top: 0px;
+    margin-left: -2px;
+    font-size: 13px;
+    padding: 0px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.search_item {
+    text-align: left;
+    display: block;
+    padding-left: 24px;
+    position: relative;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    filter: none;
+    height: auto;
+    min-height: 24px;
+    line-height: 30px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+
+/* kết thúc css header */
+
+
+/* css menu */
+
+.sag_warp_main {
+    background: #1893e6;
+    width: 100%;
+    float: left;
+}
+
+.sag__warp_hed {}
+
+.sag_megabar {}
+
+.sag_menudung {
+    position: relative;
+}
+
+.sag_title {
+    background: #ffde3f;
+    height: 51px;
+    width: 260px;
+    line-height: 51px;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+.sag_title .title {
+    padding: 0px 20px;
+    font-weight: 700;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.sag_title .fas {
+    color: aliceblue;
+}
+
+.sag_title i {
+    font-size: 20px;
+}
+
+.sag_menu_ngan {
+    height: 51px;
+}
+
+.sag_menu_ngan li {
+    margin: 0px;
+    list-style: none;
+    font-family: 'Ek Mukta';
+}
+
+.menu_ngan a {
+    transition: all linear 0.15s;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu_ngan li:hover>a {
+    text-decoration: none;
+}
+
+
+/* css cho phần menu cha */
+
+.menu_ngan>ul>li {
+    float: left;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+}
+
+.menu_ngan>ul>li>a {
+    padding: 1px 5px 15px 15px;
+    display: inline-block;
+    color: white;
+}
+
+
+/* css cho menu con */
+
+.menu_ngan li:hover .sub-menu {
+    z-index: 1;
+    opacity: 1;
+    display: block;
+}
+
+.sub-menu {
+    width: 350%;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity linear 0.15s;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    display: none;
+}
+
+.sub-menu li {
+    display: block;
+    font-size: 16px;
+}
+
+.sub-menu li a {
+    padding: 10px 30px;
+    display: block;
+}
+
+.sub-menu li a:hover {
+    background: #1893e6;
+    color: #fff;
+}
+
+.menu_ngan ul li {
+    position: relative;
+}
+
+.sub-menu2 {
+    background: #fff;
+    position: absolute;
+    left: 295px;
+    top: 0;
+    display: none;
+    width: 70%;
+}
+
+.sub-menu li:hover .sub-menu2 {
+    display: block;
+}
+
+
+/* ket thuc css menu */
+
+.sag-login {
+    margin-left: 150px;
+    margin-top: 13px;
+    font-family: 'Ek Mukta';
+}
+
+.sag-login a {
+    color: #fff;
+}
+
+.menu_ngan .sag_fix {
+    margin-bottom: 0.7rem;
+}
+
+
+/* css phan slide_index */
+
+
+/* css phan menu_header */
+
+.sag_menu_header {
+    width: 260px;
+    background: #fff;
+    font-family: "Roboto", sans-serif;
+    line-height: 45px;
+    border: solid 1px #ffde3f;
+}
+
+.sag_menu_header ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+.sag_menu_header li {
+    width: auto;
+    padding: 0 1em;
+    border-bottom: solid 1px #e5e6ec
+}
+
+.sag_menu_header li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 100;
+    display: block;
+    font-size: 15px;
+}
+
+.sag_menu_header li a:hover {
+    color: dodgerblue;
+}
+
+.sag_menu_header ul li {
+    position: relative;
+}
+
+.sag_menu_header .sub-menu-header {
+    position: absolute;
+    left: 259px;
+    top: 0;
+    display: none;
+    z-index: 1000;
+}
+
+.sag_menu_header li:hover .sub-menu-header {
+    display: block;
+}
+
+.sub-menu-header {
+    width: 100%;
+    background: #fff;
+}
+
+
+/* css sag_baner */
+
+.sag_baner {
+    width: 870px;
+    padding: 15px 15px;
+}
+
+
+/* css noi dung */
+
+.noidung {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    height: auto;
+}
+
+.sag_noidung {
+    padding-top: 20px;
+}
+
+.sag-tieude {
+    background: #fff;
+    height: 50px;
+    border: solid 1px #ebebeb;
+}
+
+.sag-icon {
+    width: 50px;
+    height: 50px;
+    background: #ff8641;
+    text-align: center;
+    float: left;
+    color: #fff;
+    margin-top: -1.5px;
+}
+
+.sag-icondm {
+    width: 50px;
+    height: 50px;
+    background: #18e2db;
+    text-align: center;
+    float: left;
+    color: #fff;
+    margin-top: -1.5px;
+}
+
+.sag-icondnb {
+    background: #5fffa2;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    margin-top: -1.5px;
+}
+
+.sag-icondg {
+    background: #ffd76a;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    margin-top: -1.5px;
+}
+
+.sag-iconttm {
+    background: #ae9eff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    margin-top: -1.5px;
+}
+
+.sag-tieude .sag-icon i {
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.sag-tieude .sag-icondm i {
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.sag-tieude .sag-icondnb i {
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.sag-tieude .sag-iconttm i {
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.sag-tieude .sag-icondg i {
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.sag-tieude h2 {
+    width: 18.4%;
+    float: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0px 10px 0 10px;
+    margin-top: -1.5px;
+}
+
+.danhgia {
+    background: #fbc531
+}
+
+.fsash {
+    background: #ff640b;
+}
+
+.kts {
+    background: #EE5A24;
+}
+
+.dnb {
+    background: #3def88;
+}
+
+.dienmay {
+    background: #12CBC4;
+}
+
+.ttm {
+    background: #8c7ae6;
+}
+
+.sag-tieude h2 .flash {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.sag-tieude .deal {
+    float: left;
+    margin-left: 30px;
+}
+
+.sag-tieude .deal span {
+    line-height: 50px;
+    color: #ff640b;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sag-tieude .xtc {
+    text-decoration: none;
+    color: #555;
+    line-height: 50px;
+    font-size: 14px;
+    float: right;
+    margin-right: 14px;
+}
+
+.sag-tieude .xtc:hover {
+    color: cornflowerblue;
+}
+
+.sag_product_index {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: 325px;
+}
+
+.sag_nd {
+    width: 221.6px;
+    height: 325px;
+    background: #fff;
+    float: left;
+    border: solid 2px #f8f9f9;
+}
+
+.sag_nd:hover {
+    border: solid 1px #ebebeb
+}
+
+.sag_nd_img a img {
+    width: 215px;
+}
+
+.sag_nd_sanpham {
+    padding-left: 15px;
+}
+
+.sag_tensanpham {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    padding-right: 4px;
+    font-weight: 400;
+}
+
+.sag_tensanpham a {
+    color: #555;
+    text-decoration: none;
+}
+
+.sag_tensanpham a:hover {
+    color: royalblue;
+}
+
+.gia_chinh {
+    color: red;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.giam_gia {
+    color: rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: line-through;
+}
+
+.sag_pro_item {
+    border: solid 1px #ebebeb;
+    width: 100%;
+}
+
+.ss {
+    border: solid 1px #ebebeb;
+    width: 100%;
+}
+
+.ss {
+    float: left;
+}
+
+.sag_hinhanh {
+    float: left;
+    line-height: 110px;
+    margin-right: 10px;
+}
+
+.sag_hinhanh a img {
+    width: 90px;
+}
+
+.sag_noidung .noidung-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 5px;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sag_noidung .noidung-name a {
+    color: #555;
+    text-decoration: none;
+}
+
+.sag_noidung .noidung-name a:hover {
+    color: #167edf;
+}
+
+.noidung-giagoc .gia-goc {
+    color: #ff5b5b;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.noidung-giakm .gia-km {
+    color: #acacac;
+    font-family: 'Arial', sans-serif;
+    margin-right: 10px;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.sag_warp_tap {}
+
+.sag_no_nd {
+    width: 206px;
+    height: 342px;
+    float: left;
+    border: solid 1px #ebebeb;
+}
+
+.sag_banner_large1 {
+    padding: 15px 0px 25px 0px;
+}
+
+.sag_no_name .no_name {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 5px;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sag_no_img {
+    text-align: center;
+    padding: 22px 0px;
+}
+
+.sag_no_img a img {
+    height: 200px;
+}
+
+.sag_no_name {
+    padding: 0px 11px;
+}
+
+.sag_no_name .no_name a {
+    color: #555;
+    text-decoration: none;
+}
+
+.sag_no_name .no_name a:hover {
+    color: #167edf;
+    text-decoration: none;
+}
+
+.sag_no_gia .no_gia {
+    color: #ff5b5b;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.block1 {
+    float: left;
+}
+
+.block2 {
+    float: left;
+}
+
+.sag_danhgia {
+    border: solid 1px #ebebeb;
+}
+
+.sag_testimonial {
+    width: 100%;
+    padding: 40px 20px 20px;
+}
+
+.sag_testimg {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.sag_testimg img {
+    max-width: 100%;
+    border: solid 5px #167edf;
+    border-radius: 50%;
+}
+
+.sag_testten {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.sag_testten .star-reviews {
+    list-style: none;
+}
+
+.sag_testten .star-reviews li {
+    display: inline-block;
+    text-align: center;
+}
+
+.sag_testten .sag_testtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #555;
+    display: block;
+    font-weight: 700;
+    padding: 0px;
+}
+
+.star-reviews li i {
+    font-size: 12px;
+    color: #fbc531;
+}
+
+.sag_testbinhluan .sag_binhluan {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 20px;
+    color: #555;
+}
+
+.sag_tintuc .sag_tintuc_nd {
+    text-decoration: none;
+    color: #555;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.sag_tintuc a:hover {
+    color: #0089ff;
+}
+
+.blog_img {
+    width: 120px;
+    float: left;
+}
+
+.sag_content__ h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.sag_content__ {
+    padding-left: 10px;
+}
+
+.blog_img {
+    margin-right: 15px;
+}
+
+.sag_content__ h3 a {
+    color: #555;
+    text-decoration: none;
+}
+
+.sag_content__ h3 a:hover {
+    color: #0089ff;
+}
+
+.sag_tintucnb {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ebebeb;
+    width: 100%;
+    float: left;
+}
+
+.sag-hangmay {
+    border: solid 1px #ebebeb;
+    width: 100%;
+    float: left;
+    margin: 10px 0px;
+}
+
+.hangmay {
+    float: left;
+    width: 143.2px;
+    margin-left: 15px;
+}
+
+.help {
+    width: 100%;
+    float: left;
+    background: #167edf;
+    padding: 15px 0px;
+}
+
+.content {
+    display: flex;
+    -webkit-display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+    -os-display: flex;
+    justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -o-justify-content: center;
+    -os-justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.content .far {
+    color: #fbc531;
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.content p {
+    margin: 0;
+}
+
+.content p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content .sag_button_help {
+    color: #fff;
+    background: #0089ff;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    padding: 0 15px;
+}
+
+.sag-active {
+    width: 100%;
+    height: auto;
+}
+
+.sag-item_policy {
+    display: flex;
+    padding: 28px;
+    border-right: solid 1px #ebebeb;
+}
+
+.sag-item_policy p {
+    color: #555;
+    font-size: 15px;
+}
+
+.sag-item_policy i {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.sag-item_policy2 {
+    display: flex;
+    padding: 28px;
+}
+
+.sag-item_policy2 i {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.sag-item_policy2 i {
+    font-size: 25px;
+}
+
+.sag-item_policy2 p {
+    color: #555;
+    font-size: 15px;
+}
+
+.sag-section {
+    border-bottom: solid 1px #ebebeb;
+}
+
+.topfoter {
+    border-top: solid 1px #ebebeb;
+    background: #f8f9f9;
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+}
+
+.sag-cliker {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0px 0px 25px 0px;
+}
+
+.sag-toggle {
+    list-style: none;
+}
+
+.sag-toggle li {
+    line-height: 30px;
+}
+
+.sag-toggle li a {
+    text-decoration: none;
+    color: #555;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.sag-toggle li a:hover {
+    color: #0089ff;
+}
+
+.sag-site {
+    padding-top: 30px;
+}
+
+.sag-site h4 {
+    border-top: solid 1px #ebebeb;
+    padding: 25px 0px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.sag-site p {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #555;
+    margin: 0;
+    line-height: 20px;
+}
+
+.sag-site p a {
+    color: #555;
+    text-decoration: none;
+}
+
+.sag-site p a:hover {
+    color: #0089ff;
+}
+
+.bottom-footer {
+    width: 100%;
+    float: left;
+    background: #167edf;
+    line-height: 35px;
+}
+
+.sag-botom {
+    text-align: center;
+}
+
+
+/* css phan kỹ thuật số */
+
+.sag_banner_1 {
+    width: auto;
+    float: left;
+    padding: 15px 0 15px 0;
+}
+
+.ss {
+    height: 120px;
+}
+
+
+/* css phần điện máy */
+
+.sag_banerfull_ {
+    padding: 15px 0 25px 0;
+}
+
+.sag_row_ {
+    margin-top: -8px;
+}
+
+
+/* css phầnn điện thoại  */
+
+.sag-tieudedt {
+    background: #fff;
+    height: 50px;
+    border: solid 1px #ebebeb;
+}
+
+.sag-icondt {
+    width: 50px;
+    height: 50px;
+    background: #18e2db;
+    text-align: center;
+    float: left;
+    color: #fff;
+    margin-top: -1.5px;
+}
+
+.sag-tieudedt .sag-icondt i {
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.sag-tieudedt h2 {
+    width: 18.4%;
+    float: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0px 10px 0 10px;
+    background: #12CBC4;
+    margin-top: -1.5px;
+}
+
+.sag-tieudedt h2 .flashdt {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.sag-tieudedt .deal {
+    float: left;
+    margin-left: 30px;
+}
+
+.sag-tieudedt .xtc {
+    text-decoration: none;
+    color: #555;
+    line-height: 50px;
+    font-size: 14px;
+    float: right;
+    margin-right: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sag-tieudedt .xtc:hover {
+    color: cornflowerblue;
+}
+
+
+/* kết thúc code của sang */
+
+.sag_bannerbep {
+    padding-bottom: 20px;
+}
